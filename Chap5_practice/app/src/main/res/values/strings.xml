@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Chap5_ practice</string>
+    <string name="visible_view">사진 보이기</string>
+    <string name="invisible_view">사진 감추기</string>
+</resources>
