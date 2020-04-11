@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
                 switch (v.getId()){
                     case R.id.btn_add:
                         result = Integer.parseInt(str1)+Integer.parseInt(str2);
-                        resultText.setText("덧셈 계 결과 : "+result);
+                        resultText.setText("덧셈 계산 결과 : "+result);
                         break;
                     case R.id.btn_min:
                         result = Integer.parseInt(str1)-Integer.parseInt(str2);
