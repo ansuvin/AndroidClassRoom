@@ -1,0 +1,2 @@
+include ':app', ':example6-1_textclock'
+rootProject.name='Chap 06'
