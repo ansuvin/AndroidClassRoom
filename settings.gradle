@@ -1,2 +1,2 @@
-include ':app', ':example6-1_textclock'
+include ':app', ':example6-1_textclock', ':example6-2_chronometer'
 rootProject.name='Chap 06'
