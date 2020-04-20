@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewTimerSetting"
+        android:layout_width="0dp"
+        android:layout_height="30sp"
+        android:background="#ffa400"
+        android:gravity="center_horizontal"
+        android:text="@string/timer_setting"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linerLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#aaaaaa"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewTimerSetting">
+
+        <EditText
+            android:id="@+id/editTextEnteredSeconds"
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:text="40"
+            android:inputType="number"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="#ffffff"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#111111"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="@string/second"/>
+        <Button
+            android:id="@+id/btnReset"
+            android:textSize="22sp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:background="#f47983"
+            android:textStyle="bold"
+            android:text="@string/reset"/>
+        <Button
+            android:id="@+id/btnPauseRestart"
+            android:textSize="22sp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:background="#ffa400"
+            android:textStyle="bold"
+            android:text="@string/pause"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/timerTitle"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:background="#f47983"
+        android:gravity="center_horizontal"
+        android:text="@string/titleOfTimer"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linerLayout" />
+
+    <Button
+        android:id="@+id/btnTimerSwitch"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#ffff00"
+        android:gravity="center"
+        android:text="40"
+        android:textSize="300sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textViewCopyright"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/timerTitle" />
+
+    <TextView
+        android:id="@+id/textViewCopyright"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/copyright"
+        android:background="#ffffff"
+        android:textColor="#888888"
+        android:gravity="center_horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BoardGame\nTimer</string>
+    <string name="copyright">Copyright 2020. An Su Bin. All rights reserved.</string>
+    <string name="titleOfTimer">BoardGame Timer</string>
+    <string name="timer_setting">Timer Setting</string>
+    <string name="second">초</string>
+    <string name="reset">RESET</string>
+    <string name="pause">PAUSE</string>
+    <string name="restart">RESTART</string>
+</resources>
