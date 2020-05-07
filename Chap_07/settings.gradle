@@ -1,0 +1,2 @@
+include ':app', ':exercise01_optionmenu', ':exercise02_optionmenu', ':practice7_1', ':exercise03_contextmenu', ':practice7_2', ':exercise04_toast', ':exercise_dialog'
+rootProject.name='Chap_07'
