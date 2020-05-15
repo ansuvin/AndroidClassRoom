@@ -2,12 +2,18 @@ package com.cookandroid.practice08_practice8_1;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.CalendarView;
 import android.widget.DatePicker;
 import android.widget.EditText;
+import android.widget.Toast;
 
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
 import java.util.Calendar;
 
 public class MainActivity extends AppCompatActivity {
@@ -41,9 +47,38 @@ public class MainActivity extends AppCompatActivity {
                 btnWriter.setEnabled(true);             //버튼활성화
             }
         });
+
+        btnWriter.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                try {
+                    FileOutputStream outFs = openFileOutput(fileName, Context.MODE_PRIVATE);
+                    String str = editText.getText().toString();
+                    outFs.write(str.getBytes());
+                    outFs.close();
+                    Toast.makeText(getApplicationContext(), fileName+" 이 저장됨", Toast.LENGTH_SHORT).show();
+                }catch (IOException e){
+
+                }
+            }
+        });
     }
 
     private String readDiary(String fileName) {
-        return null;
+        String diaryStr = null;
+        FileInputStream inFs;
+
+        try{
+            inFs = openFileInput(fileName); //파일열기
+            byte[] txt = new byte[500];     //byte형 배열 선언
+            inFs.read(txt);                 //txt에 읽어들이기
+            inFs.close();
+            diaryStr = (new String(txt)).trim();    //trim() - 앞뒤의 공백을 제거
+            btnWriter.setText("수정하기");
+        }catch (IOException e){
+            editText.setHint("일기 없음");
+            btnWriter.setText("새로 저장");
+        }
+        return diaryStr;
     }
 }
