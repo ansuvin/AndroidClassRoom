@@ -1,0 +1,2 @@
+include ':app', ':test6-10_autocompletetextview', ':test6-14_slidingdrawer', ':test6-15_viewflipper', ':test6-17_tabhost'
+rootProject.name='CookMap'

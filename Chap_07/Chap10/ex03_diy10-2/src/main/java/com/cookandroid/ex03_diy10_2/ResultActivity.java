@@ -2,8 +2,10 @@ package com.cookandroid.ex03_diy10_2;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.RatingBar;
 import android.widget.TextView;
 
@@ -33,6 +35,21 @@ public class ResultActivity extends AppCompatActivity {
                 R.id.tv5, R.id.tv6, R.id.tv7, R.id.tv8, R.id.tv9};
         int[] ratingBarIds = {R.id.rbar1, R.id.rbar2, R.id.rbar3, R.id.rbar4,
                 R.id.rbar5, R.id.rbar6, R.id.rbar7, R.id.rbar8, R.id.rbar9};
+        int[] imageViews = {R.drawable.kakao01, R.drawable.kakao02, R.drawable.kakao03, R.drawable.kakao04,
+                R.drawable.kakao05, R.drawable.kakao06, R.drawable.kakao07, R.drawable.kakao08, R.drawable.kakao09};
+        ImageView imageView = findViewById(R.id.imageView2);
+
+        int max = voteResult[0];
+        int maxIndex=0;
+        for(int i=0;i<voteResult.length;i++){
+            if(max<voteResult[i]){
+                max=voteResult[i];
+                maxIndex=i;
+                Log.d("max",Integer.toString(max));
+            }
+        }
+
+        imageView.setImageResource(imageViews[maxIndex]);
 
         //region 참조변수에 View 객체 연결
         for (int i=0; i<textViews.length;i++){

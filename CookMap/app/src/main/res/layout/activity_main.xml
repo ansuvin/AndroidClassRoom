@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/map"   
+    xmlns:tools="http://schemas.android.com/tools"
+    android:name="com.google.android.gms.maps.MapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    map:cameraTargetLat = "37.541"
+    map:cameraTargetLng = "126986"
+    map:cameraZoom="10">
+
+</fragment>
