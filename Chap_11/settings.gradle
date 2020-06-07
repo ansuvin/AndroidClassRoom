@@ -1,2 +1,2 @@
-include ':app'
+include ':app', ':ex01_listview', ':ex02_listview', ':ex03_listview_addmodifydelete', ':ex04_listview_simpleadapter', ':ex05_listview_simpleadapter', ':ex06_listview_customadapter'
 rootProject.name='Chap_11'
