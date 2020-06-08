@@ -1,0 +1,2 @@
+include ':app', ':ex01_intent', ':ex02', ':ex04', ':ex03'
+rootProject.name='Practice'
