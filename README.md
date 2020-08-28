@@ -101,4 +101,31 @@
 ##### practice10_1
  라디오 버튼이 선택한 Acitivity로 intent를 통해 전환
  
-### 
+### chap_11
+##### ex01_listView
+ ListView사용하기 ( 리스트에 데이터를 추가, 보이기)
+
+##### ex02_listView
+ 프로세스 바가 포함된 listView 사용
+ row.xml을 디자인해서 사용
+
+##### ex03_listView_addmodifydelete
+ 리스트 아이템 추가,수정,삭제
+
+##### ex04_listView_simpleadapter
+ 리스트 아이템을 클릭했을때 내용을 TextView에 보이기
+
+##### ex05_listview_simpleadapter
+ HashMap을 이용하여 아이템 하나에 3가지 컨텍스트 설정
+
+##### ex06_listView_customadapter
+ 직접 어댑터를 만들어서 데이터 수정 추가 기능
+
+##### ex07_listView_customadapter
+ 직접 어댑터를 만들어서 데이터 수정 가능
+ 아이템당 하나의 객체를 만듬
+ ## 커스텀 listView를 만들고 싶다면 여기로!
+
+##### ex08_spinner
+ 리스트 스피너 설정
+ setDropDownViewResource(android.R.layout.simple_spinner_item);
