@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GDMS</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_request">신청</string>
+    <string name="title_food">급식</string>
+    <string name="title_notifications">공지</string>
+    <string name="title_myPage">마이페이지</string>
+</resources>

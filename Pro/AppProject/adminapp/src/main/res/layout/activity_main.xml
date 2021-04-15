@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="108dp"
+        android:gravity="center"
+        android:text="광소마 관리자 전용 앱"
+        android:textSize="24dp"
+        android:fontFamily="@font/malgunbd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="#000000"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        android:layout_margin="20dp">
+
+        <Button
+            android:id="@+id/btnSetPoint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="상벌점 주기"
+            android:background="@color/mainColor"
+            android:textColor="#ffffff"
+            android:fontFamily="@font/malgunbd"
+            android:textSize="17sp"
+            android:layout_marginBottom="15dp"/>
+
+        <Button
+            android:id="@+id/laptopNameSheet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="노트북 대여자 명단"
+            android:background="@color/mainColor"
+            android:textColor="#ffffff"
+            android:fontFamily="@font/malgunbd"
+            android:textSize="17sp"
+            android:layout_marginBottom="15dp"/>
+
+        <Button
+            android:id="@+id/stayNameSheet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="잔류 신청 학생 명단"
+            android:background="@color/mainColor"
+            android:textColor="#ffffff"
+            android:fontFamily="@font/malgunbd"
+            android:textSize="17sp"
+            android:layout_marginBottom="15dp"/>
+
+        <Button
+            android:id="@+id/btnCheckSong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="노래 신청 내역 보기"
+            android:background="@color/mainColor"
+            android:textColor="#ffffff"
+            android:fontFamily="@font/malgunbd"
+            android:textSize="17sp"
+            android:layout_marginBottom="15dp"/>
+
+        <Button
+            android:id="@+id/setNotification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="공지사항 적기"
+            android:background="@color/mainColor"
+            android:textColor="#ffffff"
+            android:fontFamily="@font/malgunbd"
+            android:textSize="17sp"
+            android:layout_marginBottom="15dp"/>
+        <Button
+            android:id="@+id/CheckBreak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="고장난 시설"
+            android:background="@color/mainColor"
+            android:textColor="#ffffff"
+            android:fontFamily="@font/malgunbd"
+            android:textSize="17sp"
+            android:layout_marginBottom="15dp"/>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

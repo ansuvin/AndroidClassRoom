@@ -1,15 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <compositeConfiguration>
-          <compositeBuild compositeDefinitionSource="SCRIPT" />
-        </compositeConfiguration>
+        <option name="delegatedBuild" value="false" />
+        <option name="testRunner" value="PLATFORM" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/ex01_listview" />
+            <option value="$PROJECT_DIR$/ex02_listview" />
+            <option value="$PROJECT_DIR$/ex03_listview_addmodifydelete" />
+            <option value="$PROJECT_DIR$/ex04_listview_simpleadapter" />
+            <option value="$PROJECT_DIR$/ex05_listview_simpleadapter" />
+            <option value="$PROJECT_DIR$/ex06_listview_customadapter" />
+            <option value="$PROJECT_DIR$/ex07_listview_cutomadater" />
+            <option value="$PROJECT_DIR$/ex08_spinner" />
+            <option value="$PROJECT_DIR$/ex08_test1" />
+            <option value="$PROJECT_DIR$/ex09_test2" />
+            <option value="$PROJECT_DIR$/ex10_test3" />
+            <option value="$PROJECT_DIR$/ex11_test4" />
+            <option value="$PROJECT_DIR$/ex12_test5" />
+            <option value="$PROJECT_DIR$/ex13_test6" />
+            <option value="$PROJECT_DIR$/ex14_test7" />
+            <option value="$PROJECT_DIR$/ex15_test8" />
+            <option value="$PROJECT_DIR$/test01" />
+          </set>
+        </option>
         <option name="resolveModulePerSourceSet" value="false" />
-        <option name="testRunner" value="PLATFORM" />
       </GradleProjectSettings>
     </option>
   </component>

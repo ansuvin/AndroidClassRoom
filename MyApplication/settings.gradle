@@ -1,2 +1,2 @@
-include ':app'
+include ':app', ':ex01', ':ex02', ':ex03', ':ex04', ':ex05'
 rootProject.name='My Application'

@@ -1,2 +1,10 @@
-include ':app', ':ex01_intent', ':ex02', ':ex04', ':ex03'
-rootProject.name='Practice'
+include ':pra08_base64'
+include ':pra07_base64'
+include ':pra06_send_email'
+include ':pra05'
+include ':pra04'
+include ':pra03'
+include ':pra01'
+include ':myapplication'
+include ':app'
+rootProject.name = "Practice"

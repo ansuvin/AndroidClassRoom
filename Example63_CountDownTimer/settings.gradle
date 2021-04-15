@@ -1,0 +1,2 @@
+include ':app', ':boardgametimer', ':example6-4_timepickerdatepicker', ':example6-12_progressbar', ':example6-13_scrollview', ':example6-13_scrollview2', ':example6-1_reservation', ':example6-15_viewflipper', ':fragment01', ':fragment02'
+rootProject.name='Example6-3_CountDownTimer'

@@ -1,2 +1,3 @@
-include ':app', ':ex01_listview', ':ex02_listview', ':ex03_listview_addmodifydelete', ':ex04_listview_simpleadapter', ':ex05_listview_simpleadapter', ':ex06_listview_customadapter'
+include ':test01'
+include ':app', ':ex01_listview', ':ex02_listview', ':ex03_listview_addmodifydelete', ':ex04_listview_simpleadapter', ':ex05_listview_simpleadapter', ':ex06_listview_customadapter', ':ex07_listview_cutomadater', ':ex08_test1', ':ex09_test2', ':ex10_test3', ':ex11_test4', ':ex12_test5', ':ex13_test6', ':ex14_test7', ':ex15_test8', ':ex08_spinner'
 rootProject.name='Chap_11'

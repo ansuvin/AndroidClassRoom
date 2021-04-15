@@ -1,0 +1,2 @@
+include ':app', ':ex01_practice10-1', ':practice10_1', ':ex02_practice10-2', ':ex03_diy10-2', ':ex04_example10-16', ':ex05_diy10-3', ':ex06_example10-20', ':ex07_practice10-3'
+rootProject.name='Chap10'

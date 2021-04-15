@@ -1,0 +1,4 @@
+include ':app:ex02_handler'
+include ':app:ex01_anr'
+include ':app'
+rootProject.name = "20210311_Thread"
